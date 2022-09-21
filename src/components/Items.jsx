@@ -7,7 +7,7 @@ import {
   CategoryWrapper as ItemWrap,
   CategoryCard as ItemCard,
 } 
-  from '../components/Catagories';
+  from './Catagories';
 
   const Item = styled.img`
   height: 130px;
