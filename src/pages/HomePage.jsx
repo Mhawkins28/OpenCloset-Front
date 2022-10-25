@@ -37,12 +37,12 @@ const HomePage = ({user, setUser }) => {
         {/* {console.log("no user")} */}
         <h1>HELLO THERE</h1> 
         <BtnWrap>
-        <Link to="/login">
+        <Link style={{ textDecoration: "none" }} to="/login">
             <Button onClick={()=>{
             setUser(null) 
-            }} >Sign In</Button>
+            }}>Sign In</Button>
           </Link>
-          <Link to="/signup" >
+          <Link style={{ textDecoration: "none" }} to="/signup" >
             <Button >Sign Up</Button>
           </Link>
         </BtnWrap>

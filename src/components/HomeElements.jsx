@@ -11,6 +11,7 @@ export const HomeContainer = styled.div`
   position: relative;
   z-index: 1;
 
+
   :before {
   content: '';
   position: absolute;

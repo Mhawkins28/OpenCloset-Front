@@ -24,7 +24,7 @@ export const NavbarContainer = styled.div`
   z-index: 3;
   width: 100%;
   padding: 0 24px;
-  max-width: 100%;
+  max-width: 92%;
 `
 
 export const NavLogo = styled(Link)`
@@ -34,7 +34,7 @@ export const NavLogo = styled(Link)`
   font-size: 1.6rem;
   /* -webkit-text-stroke-width: 1.5px; */
   /* -webkit-text-stroke-color: #AD898D; */
-  text-transform:  uppercase;
+  // text-transform:  uppercase;
   display: flex;
   align-items: center;
   margin-left: 24px;

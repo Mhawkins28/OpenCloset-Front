@@ -48,7 +48,7 @@ return (
       <Label htmlFor="name">Password</Label>
       <Input id="password" name="password" type="password" onChange={handleChange} />
     </InputWrapper>
-    <Input type='submit' value='Log in' />
+    <Input type='submit' value='LOG IN' style={{ borderBottomColor: "transparent", fontSize: "1.5rem" }}/>
   </FormContainer>
 )
 }

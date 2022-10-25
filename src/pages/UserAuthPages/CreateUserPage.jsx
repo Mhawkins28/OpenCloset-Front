@@ -11,7 +11,8 @@ import {
   FormHeader,
   InputWrapper,
   Label,
-  Input,} 
+  Input,
+  } 
   from '../../components/Forms'
 
 const CreateUserPage = ({ setUser, user}) => {
@@ -65,10 +66,12 @@ const handleSubmit = (e) => {
       <Label>Confirm Password</Label>
       <Input name="passwordConf" id="passwordConf" type="password" onChange={handleChange} required/>
     </InputWrapper>
-    <Input type='submit' value='Sign Up!' />
 
-    <Link to="/" id="cancel">
-      <Button>Cancel</Button>
+
+    <Input type='submit' value='SIGN UP!' style={{ borderBottomColor: "transparent", fontSize: "1.5rem" }} />
+
+    <Link style={{ textDecoration: "none" }} to="/" id="cancel" value="Cancel">
+      <Button style={{ color: "black", border: "0px solid black", fontFamily: "Playfair Display" }} >BACK</Button>
     </Link>
   </FormContainer>
   )

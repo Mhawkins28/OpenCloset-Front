@@ -3,28 +3,30 @@ import styled from 'styled-components';
 export const FormContainer = styled.form`
   background: #f6f6f6;
   width: 100%;
-  height: 800px;
-  font-size:16px; color:#2E4756;; letter-spacing:1px;
+  height: 100vh;
+  font-size:16px; 
+  color:#2E4756;
+  letter-spacing:1px;
   font-family:"Playfair Display", serif; font-weight:400;
   `
 
-export const Signup = styled.h2`
-  position: absolute;
-  right: 8%;
-  top: 5%;
-  font-family: "Raleway";
-  text-transform:uppercase;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 125%;
-  letter-spacing: 0.5px;
-  color: #2E4756;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-  text-shadow: -4.08px -4.08px 4.08px rgba(255, 255, 255, 0.007),
-    6.215px 6.22px 4.08px rgba(174, 174, 192, 0.002);
-`;
+// export const Signup = styled.h2`
+//   position: absolute;
+//   right: 8%;
+//   top: 5%;
+//   font-family: "Raleway";
+//   text-transform:uppercase;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 12px;
+//   line-height: 125%;
+//   letter-spacing: 0.5px;
+//   color: #2E4756;
+//   mix-blend-mode: normal;
+//   opacity: 0.8;
+//   text-shadow: -4.08px -4.08px 4.08px rgba(255, 255, 255, 0.007),
+//     6.215px 6.22px 4.08px rgba(174, 174, 192, 0.002);
+// `;
 
 // export const Forgotpw = styled.h4`
 //   display: flex;
@@ -59,20 +61,19 @@ export const SignUp = styled.h1`
     6.215px 6.22px 4.08px rgba(174, 174, 192, 0.002);
 `;
 
-export const Img = styled.div`
-  margin: 50px auto;
-  margin-bottom: 0px;
-  display: block;
-  height: 143.85px;
-  width: 25%;
-  background-size: 100%; 
-`;
+// export const Img = styled.div`
+//   margin: 50px auto;
+//   margin-bottom: 0px;
+//   display: block;
+//   height: 143.85px;
+//   width: 25%;
+//   background-size: 100%; 
+// `;
 
 export const HeaderWrapper = styled.section`
 display: flex;
 flex-direction: column;
 width: 90%;
-
 margin-top: 4rem;
 top: 5%;
 `;
@@ -118,7 +119,6 @@ export const InputWrapper = styled.div`
   display: block;
   width: 80%;
   margin: 50px auto;
-
 `;
 
 export const Label = styled.label`
@@ -138,7 +138,7 @@ export const Input = styled.input`
   background: #f6f6f6;
   border: none;
   border-radius: 3px;
-  width: 100%;
+  width: 75%;
   font-family: "Raleway";
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   margin-bottom: 0.5em;

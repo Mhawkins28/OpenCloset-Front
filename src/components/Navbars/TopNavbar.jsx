@@ -46,7 +46,7 @@ const handleLogout = () => {
         </NavMenu> 
       )
       }
-        <NavLogo to='/'><b>O<sup><FaRedhat/></sup></b>penCloset</NavLogo>
+        <NavLogo to='/'><b><FaRedhat/></b>penCloset</NavLogo>
       </NavbarContainer>
     </Nav>
   )
