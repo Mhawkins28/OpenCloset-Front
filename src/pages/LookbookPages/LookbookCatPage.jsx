@@ -20,7 +20,7 @@ const LookbookCatPage = () => {
       <HeaderWrap>
         <PageHeader>My Lookbook<span>Categories</span></PageHeader>
     </HeaderWrap>
-    <GridContainer>
+    <GridContainer style={{ marginTop: "2rem" }}>
       <CategoryWrapper>
         <CategoryCard>
           <Link to="/looks">

@@ -93,7 +93,7 @@ export const CategoryWrapper = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr
   }
-  /* play with media more with final sized cards */
+
 `
 
 export const CategoryCard = styled.div`
