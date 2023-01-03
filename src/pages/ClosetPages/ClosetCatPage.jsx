@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PageNav from '../../components/Navbars/PageNav'
 import { 
@@ -9,16 +8,9 @@ import {
   GridContainer,
   CategoryWrapper,
   CategoryCard,
-  CatName} 
+  CatName,
+  CatImg} 
   from '../../components/Catagories';
-
-const CatImg = styled.img`
-  height: 100px;
-  object-fit: contain;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  width: 90%;  
-`
 
 const ClosetCatPage = () => {
   return (

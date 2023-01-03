@@ -4,14 +4,14 @@ import styled from 'styled-components';
 export const PageContainer = styled.main`
 background: #2E4756;
 background: radial-gradient(circle, rgba(68,160,141,1) 3%, rgba(33,97,90,1) 57%, rgba(9,54,55,1) 96%);
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  position: relative; 
-	box-sizing: border-box;
-  margin-top: 0px;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+position: relative; 
+box-sizing: border-box;
+margin-top: 0px;
 
   :before {
   content: '';

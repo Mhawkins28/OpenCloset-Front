@@ -11,16 +11,18 @@ import {
   CategoryCard,
   CatName,
   CatImg}
-  from '../../components/Catagories'
+  from '../../components/Catagories';
+
 
 const LookbookCatPage = () => {
   return (
+
     <PageContainer>
       <PageNav />
       <HeaderWrap>
         <PageHeader>My Lookbook<span>Categories</span></PageHeader>
     </HeaderWrap>
-    <GridContainer style={{ marginTop: "2rem" }}>
+    <GridContainer >
       <CategoryWrapper>
         <CategoryCard>
           <Link to="/looks">
