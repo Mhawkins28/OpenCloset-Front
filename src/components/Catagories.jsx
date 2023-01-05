@@ -93,7 +93,6 @@ export const CategoryWrapper = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr
   }
-
 `
 
 export const CategoryCard = styled.div`
@@ -103,7 +102,6 @@ export const CategoryCard = styled.div`
 	height: 85%;  
   box-sizing: border-box;
   padding:  10px;
-
 
   &:hover{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);

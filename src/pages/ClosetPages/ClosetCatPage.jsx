@@ -27,14 +27,12 @@ const ClosetCatPage = () => {
           <CatImg src="images/Shirt3.png" alt="Tops" />
         </Link>
           <CatName>Tops</CatName>
-          
         </CategoryCard>
         <CategoryCard>
           <Link to="/items">
             <CatImg src="images/Pants.png" alt="Pants" />
           </Link>
           <CatName>Bottoms</CatName>
-
         </CategoryCard>
         <CategoryCard>
         <Link to="/items">
@@ -88,44 +86,7 @@ const ClosetCatPage = () => {
     </GridContainer>
   {/* <IconNav /> */}
   </PageContainer>
-
-  
 )
 }
 
 export default ClosetCatPage   
-
-    // <Category>
-    //   <CatLinks to="#">Tops</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Bottoms</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Dresses/Jumpsuits</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Outerwear</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Shoes</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Bags</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Accessories</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Jewelery</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Lingerie</CatLinks>
-    // </Category>
-    // <Category>
-    //   <CatLinks to="#">Need It</CatLinks>
-    // </Category>
-    // <Button>
-    //   this button will direct me to the right catagory page continaing the items 
-    // </Button>
-

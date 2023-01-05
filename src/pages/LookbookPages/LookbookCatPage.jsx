@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import PageNav from '../../components/Navbars/PageNav'
-// import { Button } from '../../components/Button'
 import { 
   PageContainer,
   HeaderWrap,
